@@ -111,10 +111,68 @@ hr{
 .img-container img{
     display: flex;
     width: 35vw;
+    
 }
 
 .text-container{
     display: flex;
     text-align: center;
     justify-content: space-around;
+}
+.apple-container{
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+    align-content: center;
+}
+
+.apple-left img{
+    object-fit: cover;
+    object-position: center;
+    width: 45vw;
+    border-radius: 4px;
+    align-content: center;
+    height: 60.5vh;
+    
+}
+.apple-right{
+    text-align: center;
+    align-content: center;
+    height: 100%;
+}
+
+.apple-right img{
+    object-fit: cover;
+    object-position: center;
+    width: 45vw;
+    height: 30vh;
+    border-radius: 4px;
+
+}
+.apple-right h2{
+    margin: 32px;
+    font-weight: 100;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.left-footer{
+    display: flex;
+}
+.img-footer{
+    display: flex;
+    flex-direction: column;
+}
+.text-footer{
+    padding: 1em;
+}
+
+.left-footer img{
+    width: 50px;
 }
