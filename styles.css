@@ -252,6 +252,9 @@ hr{
     body{
         overflow: hidden;
     }
+    .main{
+        overflow: hidden;
+    }
     .main-container{
         max-width: 100%;
         margin: 0;
@@ -302,6 +305,10 @@ hr{
 
     .right-footer{
         display: none;
+    }
+    .login-container a{
+        display: block;
+        color: #fff !important; 
     }
 
 }
