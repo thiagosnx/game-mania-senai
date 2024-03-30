@@ -22,8 +22,10 @@ function handleRoutes() {
     }
 }
 
-// Event listener para mudanças de hash
+
 window.addEventListener('hashchange', handleRoutes);
 
-// Carregar a página inicial
+
+
+
 handleRoutes();
