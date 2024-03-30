@@ -10,6 +10,9 @@ function loadPage(page) {
 function handleRoutes() {
     const path = window.location.hash.substring(1);
     switch (path) {
+        case '':
+            loadPage('home.html');
+            break;
         case '/':
             loadPage('home.html');
             break;
