@@ -247,3 +247,61 @@ hr{
     background-color: #3684d3;
     color: #fff;
 }
+
+@media (max-width: 768px){
+    body{
+        overflow: hidden;
+    }
+    .main-container{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a{
+        display: block !important;
+    }
+    .nav-items{
+        display: none;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .console-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .console-container img{
+        width: 80%;
+        height: 50%;
+    }
+    .img-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-container img{
+        width: 100vw;
+    }
+    .text-container{
+        display: none;
+    }
+
+    .apple-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .apple-container img{
+        width: 80vw;
+    }
+
+    .right-footer{
+        display: none;
+    }
+
+}
